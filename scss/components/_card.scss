@@ -1,0 +1,11 @@
+//if you want to use math you should @use it first
+@use "sass:math";
+
+.card {
+  display: block;
+  padding: $base_padding;
+  margin: 10px;
+  border-radius: math.div($base_border_radius, 5px);
+  border: $base_border_thickness solid rgb(194, 231, 29);
+}
+@debug math.div(10, 3);
