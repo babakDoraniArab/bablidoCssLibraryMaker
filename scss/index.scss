@@ -1,20 +1,13 @@
-//variable & functions
-@import "funcitons";
-@import "variables";
+//you do not need to say go to bablidoLibrary/index.scss because when you call a folder
+//it goes to find the specified file or it choose index.scss by default .
 
-//base & layout
-@import "base";
-@import "breakpoints";
-@import "grid";
+// put your custom variables value here
 
-//colors
-@import "colors";
+//for colors use
+// $primary: #d303f8 ;
+// $secondary :#d1d1d1 ;
 
-//components(button, card, navbar)
-@import "components/card";
-@import "components/button";
-@import "components/navbar";
-
-//utilities
-  //utilities
-  @import "_utilities";
+//for others use
+//$base_padding:2rem :) so easy . just check the bablidoLibrary/_variables.scss
+//never rename the index.scss file because the gulp file just check this file
+@import "bablidoLibrary";

@@ -3,7 +3,7 @@ const sass = require("gulp-sass")(require("sass"));
 const purgecss = require("gulp-purgecss");
 
 function buildStyles() {
-  return src("scss/**/*.scss")
+  return src("scss/index.scss")
     .pipe(sass())
 
     .pipe(

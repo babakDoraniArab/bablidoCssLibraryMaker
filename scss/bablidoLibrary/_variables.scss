@@ -1,10 +1,10 @@
 //variables
 
 //theme colors
-$primary: #b3b5c5;
-$secondary: #c81a94;
-$error: #d43753;
-$info: #f6c31c;
+$primary: #83c770 !default;
+$secondary: #86d7eb !default;
+$error: #d43753 !default;
+$info: #f6c31c !default;
 
 //color palette
 $colors: (
@@ -20,21 +20,21 @@ $colors: (
 );
 
 //base fontSize
-$base_font_size: 1rem;
-$font_size_sm: $base_font_size * 0.75;
-$font_size_lg: $base_font_size * 1.5;
-$font_size_xl: $base_font_size * 2;
-$font_size_xxl: $base_font_size * 2.5;
+$base_font_size: 1rem !default;
+$font_size_sm: $base_font_size * 0.75 !default;
+$font_size_lg: $base_font_size * 1.5 !default;
+$font_size_xl: $base_font_size * 2 !default;
+$font_size_xxl: $base_font_size * 2.5 !default;
 
 //base padding and margin
-$base_padding: 0.5rem;
+$base_padding: 0.5rem !default;
 
 //border
-$base_border_thickness: 1px;
-$base_border_radius: 20px;
+$base_border_thickness: 1px !default;
+$base_border_radius: 20px !default;
 
 //boxShadow
-$base-box-shadow: 1px 1px 1px #e1e1e1;
+$base-box-shadow: 1px 1px 1px #e1e1e1 !default;
 
 //you can use debugs likes below
 
