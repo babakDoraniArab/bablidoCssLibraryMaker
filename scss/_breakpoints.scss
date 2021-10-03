@@ -1,0 +1,62 @@
+$breakpoints: (
+  "xs": 0,
+  "sm": 480px,
+  "md": 720px,
+  "lg": 960px,
+  "xl": 1200px,
+);
+
+@mixin xs {
+  @media (min-width: map-get($map: $breakpoints, $key: "xs" )) {
+    @content;
+  }
+}
+@mixin sm {
+  @media (min-width: map-get($map: $breakpoints, $key: "sm" )) {
+    @content;
+  }
+}
+@mixin md {
+  @media (min-width: map-get($map: $breakpoints, $key: "md" )) {
+    @content;
+  }
+}
+@mixin lg {
+  @media (min-width: map-get($map: $breakpoints, $key: "lg" )) {
+    @content;
+  }
+}
+@mixin xl {
+  @media (min-width: map-get($map: $breakpoints, $key: "xl" )) {
+    @content;
+  }
+}
+
+//if you want to create a flexible breakpoint
+@mixin breakpoint($bp: 0) {
+  @media (min-width: $bp) {
+    @content;
+  }
+}
+
+//test responsive
+.responsive-test {
+  @include xs {
+    color: red;
+  }
+  @include sm {
+    color: blue;
+  }
+  @include md {
+    color: green;
+  }
+  @include lg {
+    color: purple;
+  }
+  @include xl {
+    color: orange;
+  }
+  @include breakpoint(1400px) {
+    color: pink;
+  }
+}

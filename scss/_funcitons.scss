@@ -1,0 +1,14 @@
+@function light-comp($color2) {
+  //To re-word the Sass documentation: Complement. Returns the color that is 180 degrees opposite on the HSL color wheel
+  $complement: complement($color2);
+
+  $light-complement: lighten($complement, 30%);
+  @return $light-complement;
+}
+@function dark-comp($color2) {
+  //To re-word the Sass documentation: Complement. Returns the color that is 180 degrees opposite on the HSL color wheel
+  $complement: complement($color2);
+
+  $light-complement: darken($complement, 30%);
+  @return $light-complement;
+}
