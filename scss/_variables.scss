@@ -1,9 +1,11 @@
 //variables
+
 //theme colors
 $primary: #b3b5c5;
 $secondary: #c81a94;
 $error: #d43753;
 $info: #f6c31c;
+
 //color palette
 $colors: (
   "primary": $primary,
@@ -16,15 +18,6 @@ $colors: (
   "black": black,
   "white": white,
 );
-// @debug map-get($map: $colors, $key: "red");
-//@debug map-has-key($colors,"secondary");
-//@debug map-remove($colors, "primary");
-// @debug map-merge(
-//   $map1: $colors,
-//   $map2: (
-//     "pink": #ffc0cb,
-//   )
-// );
 
 //base fontSize
 $base_font_size: 1rem;
@@ -40,8 +33,17 @@ $base_padding: 0.5rem;
 $base_border_thickness: 1px;
 $base_border_radius: 20px;
 
-//test
+//boxShadow
+$base-box-shadow: 1px 1px 1px #e1e1e1;
 
-.test-btn {
-  background-color: map-get($map: $colors, $key: "yellow");
-}
+//you can use debugs likes below
+
+// @debug map-get($map: $colors, $key: "red");
+//@debug map-has-key($colors,"secondary");
+//@debug map-remove($colors, "primary");
+// @debug map-merge(
+//   $map1: $colors,
+//   $map2: (
+//     "pink": #ffc0cb,
+//   )
+// );

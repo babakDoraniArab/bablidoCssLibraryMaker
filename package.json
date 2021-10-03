@@ -17,6 +17,7 @@
   "homepage": "https://github.com/iamshaunjp/complete-sass-tutorial#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
+    "gulp-purgecss": "^4.0.3",
     "gulp-sass": "^5.0.0",
     "sass": "^1.42.1"
   },

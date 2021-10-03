@@ -7,14 +7,14 @@
 @import "breakpoints";
 @import "grid";
 
-
 //colors
 @import "colors";
 
-
 //components(button, card, navbar)
 @import "components/card";
-@import "components/button"; //utilities
+@import "components/button";
+@import "components/navbar";
 
 //utilities
-@import "_utilities";
+  //utilities
+  @import "_utilities";
